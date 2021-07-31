@@ -19,3 +19,6 @@ If you want to give some suggestions about this app, please write an email on mo
 Crack Your Dream Company!!
 
 All the Best for your Interview!!
+
+App link in Play store:
+https://play.google.com/store/apps/details?id=com.rehan.androidinterviewquestionsandanswers
