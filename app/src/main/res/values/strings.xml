@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Android Interview Questions and Answers</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="about_developer">This Android Application is Designed and Developed by "<b>Mohammed Rehan</b>". Am a Tech Enthusiastic and Self-Taught Programmer who is passionate about writing codes and building apps. I have developed this app for all those buddies and android geeks who wants to crack interviews in top MNCs. These questions are frequently asked in interviews. If you want to work in Android Apps working company, then you must try this app to prepare all the frequently asked questions. \n\n "<b>Best of Luck for your Interview!!! </b>"</string>
+
+    <string name="android_q1">1. What is Android?</string>
+    <string name="android_q2">2. Who is the founder of Android?</string>
+    <string name="android_q3">3. Explain the Android application Architecture.</string>
+    <string name="android_q4">4. What are the code names of android?</string>
+    <string name="android_q5">5. What are the advantages of Android?</string>
+    <string name="android_q6">6. Does android support other languages than java?</string>
+    <string name="android_q7">7. What are the core building blocks of android?</string>
+    <string name="android_q8">8. What is activity in Android?</string>
+    <string name="android_q9">9. What are the life cycle methods of android activity?</string>
+    <string name="android_q10">10. What is intent?</string>
+    <string name="android_q11">11. How are view elements identified in the android program?</string>
+    <string name="android_q12">12. Define Android toast?</string>
+    <string name="android_q13">13. Give a list of impotent folders in android</string>
+    <string name="android_q14">14. Explain the use of bundle in android?</string>
+    <string name="android_q15">15. What is an application resource file?</string>
+    <string name="android_q16">16. What is the use of LINUX ID in android?</string>
+    <string name="android_q17">17. Can the bytecode be written in java be run on android?</string>
+    <string name="android_q18">18. List the various storages that are provided by Android?</string>
+    <string name="android_q19">19. How are layouts placed in Android?</string>
+    <string name="android_q20">20. Where are layouts placed in Android?</string>
+    <string name="android_q21">21. What is the implicit intent in android?</string>
+    <string name="android_q22">22. What is explicit intent in android?</string>
+    <string name="android_q23">23. How to call another activity in android?</string>
+    <string name="android_q24">24. What is service in android?</string>
+    <string name="android_q25">25. What is the name of the database used in android?</string>
+    <string name="android_q26">26. What is AAPT?</string>
+    <string name="android_q27">27. What is a content provider?</string>
+    <string name="android_q28">28. What is fragment?</string>
+    <string name="android_q29">29. What is ADB?</string>
+    <string name="android_q30">30. What is NDK?</string>
+    <string name="android_q31">31. What is ANR?</string>
+    <string name="android_q32">32. What is the Google Android SDK?</string>
+    <string name="android_q33">33. What is an APK format?</string>
+    <string name="android_q34">34. Which language does Android support to develop an application?</string>
+    <string name="android_q35">35. What is ADT in Android?</string>
+    <string name="android_q36">36. What is View Group in Android?</string>
+    <string name="android_q37">37. What is the Adapter in Android?</string>
+    <string name="android_q38">38. What is nine-patch images tool in Android?</string>
+    <string name="android_q39">39. Which kernel is used in Android?</string>
+    <string name="android_q40">40. What is application Widgets in Android?</string>
+    <string name="android_q41">41. Which types of flags are used to run an application on Android?</string>
+    <string name="android_q42">42. What is a singleton class in Android?</string>
+    <string name="android_q43">43. What is sleep mode in Android?</string>
+    <string name="android_q44">44. What do you mean by a drawable folder in Android?</string>
+    <string name="android_q45">45. What is DDMS?</string>
+    <string name="android_q46">46. Define Android Architecture?</string>
+    <string name="android_q47">47. What is a portable wi-fi hotspot?</string>
+    <string name="android_q48">48. Name the dialog box which is supported by Android?</string>
+    <string name="android_q49">49. Name some exceptions in Android?</string>
+    <string name="android_q50">50. What are the basic tools used to develop an Android app?</string>
+
+    <string name="android_a1">Android is an open-source, Linux-based operating system used in mobiles, tablets, televisions, etc.</string>
+    <string name="android_a2">Andy Rubin.</string>
+    <string name="android_a3">Following is a list of components of Android application architecture: \n\n
+    Services: Used to perform background functionalities. \n
+    Intent: Used to perform the interconnection between activities and the data passing mechanism. \n
+    Resource Externalization: strings and graphics. \n
+    Notification: light, sound, icon, notification, dialog box and toast. \n
+    Content Providers: It will share the data between applications.
+</string>
+    <string name="android_a4">
+   1. Aestro \n
+   2. Blender \n
+   3. Cupcake \n
+   4. Donut \n
+   5. Eclair \n
+   6. Froyo \n
+   7. Gingerbread \n
+   8. Honeycomb \n
+   9. Ice Cream Sandwich \n
+   10. Jelly Bean \n
+   11. KitKat \n
+   12. Lollipop \n
+   13. Marshmallow \n
+   14. Nougat \n
+   15. Oreo \n
+   16. Pie
+</string>
+    <string name="android_a5">Open-source \n
+Platform-independent \n
+Supports various technologies \n
+Highly optimized Virtual Machine</string>
+    <string name="android_a6">Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK.</string>
+    <string name="android_a7">The core building blocks of Android are: \n\n
+    Activity \n
+    View \n
+    Intent \n
+    Service \n
+    Content Provider \n
+    Fragment etc.
+</string>
+    <string name="android_a8">Activity is like a frame or window in java that represents GUI. It represents one screen of android.</string>
+    <string name="android_a9">There are 7 life-cycle methods of activity. They are as follows: \n\n
+    onCreate() \n
+    onStart() \n
+    onResume() \n
+    onPause() \n
+    onStop() \n
+    onRestart() \n
+    onDestroy()
+</string>
+    <string name="android_a10">It is a kind of message or information that is passed to the components. It is used to launch an activity, display a web page, send SMS, send email, etc. There are two types of intents in android: \n\n
+    Implicit Intent \n
+    Explicit Intent
+</string>
+    <string name="android_a11">View elements can be identified using the keyword findViewById.</string>
+    <string name="android_a12">An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user.</string>
+    <string name="android_a13">The following folders are declared as impotent in android: \n\n
+    AndroidManifest.xml \n
+    build.xml \n
+    bin/ \n
+    src/ \n
+    res/ \n
+    assets/
+</string>
+    <string name="android_a14">We use bundles to pass the required data to various subfolders.</string>
+    <string name="android_a15">The files which can be injected for the building up of a process are called as application resource file.</string>
+    <string name="android_a16">A unique Linux ID is assigned to each application in android. It is used for the tracking of a process.</string>
+    <string name="android_a17">No</string>
+    <string name="android_a18">The various storage provided by android are: \n\n
+    Shared Preferences \n
+    Internal Storage \n
+    External Storage \n
+    SQLite Databases \n
+    Network Connection
+</string>
+    <string name="android_a19">Layouts in Android are placed as XML files.</string>
+    <string name="android_a20">Layouts in Android are placed in the layout folder. </string>
+    <string name="android_a21">The Implicit intent is used to invoke the system components. </string>
+    <string name="android_a22">An explicit intent is used to invoke the activity class.</string>
+    <string name="android_a23">Intent i = new Intent(getApplicationContext(), ActivityTwo.class);  \n
+startActivity(i); </string>
+    <string name="android_a24">A service is a component that runs in the background. It is used to play music, handle network transaction, etc.</string>
+    <string name="android_a25">SQLite: An opensource and lightweight relational database for mobile devices.</string>
+    <string name="android_a26">AAPT is an acronym for android asset packaging tool. It handles the packaging process.</string>
+    <string name="android_a27">A content provider is used to share information between Android applications.</string>
+    <string name="android_a28">The fragment is a part of Activity by which we can display multiple screens on one activity.</string>
+    <string name="android_a29">ADB stands for Android Debug Bridge. It is a command line tool that is used to communicate with the emulator instance.</string>
+    <string name="android_a30">NDK stands for Native Development Kit. By using NDK, you can develop a part of an app using native language such as C/C++ to boost the performance.</string>
+    <string name="android_a31">ANR stands for Application Not Responding. It is a dialog box that appears if the application is no longer responding.</string>
+    <string name="android_a32">The Google Android SDK is a toolset which is used by developers to write apps on Android-enabled devices. It contains a graphical interface that emulates an Android-driven handheld environment and allows them to test and debug their codes.</string>
+    <string name="android_a33">APK is a short form stands for Android Packaging Key. It is a compressed key with classes, UIs, supportive assets and manifest. All files are compressed to a single file is called APK.</string>
+    <string name="android_a34">Android applications are written by using the java (Android SDK) and C/C++ (Android NDK).</string>
+    <string name="android_a35">ADT stands for Android Development Tool. It is used to develop the applications and test the applications.</string>
+    <string name="android_a36">View Group is a collection of views and other child views. It is an invisible part and the base class for layouts.</string>
+    <string name="android_a37">An adapter is used to create a child view to present the parent view items.</string>
+    <string name="android_a38">We can change bitmap images into nine sections with four corners, four edges, and an axis.</string>
+    <string name="android_a39">Android is a customized Linux 3.6 kernel.</string>
+    <string name="android_a40">Application widgets are miniature application views that can be embedded in other applications and receive periodic updates.</string>
+    <string name="android_a41">Following are two types of flags to run an application in Android: \n\n
+    FLAG_ACTIVITY_NEW_TASK \n
+    FLAG_ACTIVITY_CLEAR_TOP
+</string>
+    <string name="android_a42">A singleton class is a class which can create only an object that can be shared by all other classes.</string>
+    <string name="android_a43">In sleep mode, CPU is slept and does not accept any commands from android device except Radio interface layer and alarm.</string>
+    <string name="android_a44">In Android, a drawable folder is compiled a visual resource that can use as a background, banners, icons, splash screen, etc.</string>
+    <string name="android_a45">DDMS stands for Dalvik Debug Monitor Server. It gives the wide array of debugging features: \n\n
+    Port forwarding services \n
+    Screen capture \n
+    Thread and heap information \n
+    Network traffic tracking \n
+    Location data spoofing
+</string>
+    <string name="android_a46">The Android architecture consists of 4 components: \n\n
+    Linux Kernal \n
+    Libraries \n
+    Android Framework \n
+    Android Applications
+</string>
+    <string name="android_a47">The portable wi-fi hotspot is used to share internet connection to other wireless devices.</string>
+    <string name="android_a48">
+    Alert Dialog \n
+    Progress Dialog \n
+    Date Picker Dialog \n
+    Time picker Dialog
+</string>
+    <string name="android_a49">
+    Inflate Exception \n
+    Surface.OutOfResourceException \n
+    SurfaceHolder.BadSurfaceTypeException \n
+    WindowManager.BadTokenException
+</string>
+    <string name="android_a50">
+    JDK \n
+    Eclipse+ADT plugin \n
+    SDK Tools
+</string>
+
+</resources>
